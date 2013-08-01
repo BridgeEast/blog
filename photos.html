@@ -1,0 +1,47 @@
+<!--设计者-朱东桥-->
+
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<link href="stylesheets/default.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="javascripts/default.js"></script>
+</head>
+<body>
+
+<!-- 顶部 header -->
+<EMBED src=http://lianzidi.com/COFFdD0xMzc1MTg3NjQwJmk9MTgzLjI1LjE4OC4xMjEmdT1Tb25ncy92MS9mYWludFFDL2NjLzU0OWJjMGQ5OGU4ZWZmNDg2ZWIzOWM2MzcwNjcwZGNjLm1wMyZtPTgzNDcxMzY5ZTkwODZkYmNmNWU2ZDVjYTk2ZTEyNGU0JnY9bGlzdGVuJm491+7W1bvDz+u41sfZx/omcz3H4dL0wNYmcD1z.mp3 hidden=true type=audio/mpeg allowNetworking="internal" loop="true"></embed>
+<div id="header">
+    <div id="logo">
+    </div>
+    <div id="menu">
+      <ul>
+        <li><a href="index.html" accesskey="1">主页</a></li>
+        <li><a href="blog.html" accesskey="2">博客</a></li>
+        <li class="active"><a href="photos.html" accesskey="3">照片</a></li>
+        <li><a href="about.html" accesskey="4">关于</a></li>
+        <li><a href="contact.html" accesskey="5">分享</a></li>
+      </ul>
+  </div>
+</div>
+
+<!-- 幻灯片 -->
+<div style="padding: 20px 0 0 320px">
+<body onload="init()">
+<input type="button" value="第一张" onclick="setSrc(1)">
+<input type="button" value="上一张" onclick="pre()">
+<input type="button" value="下一张" onclick="next()">
+<input type="button" value="最后一张" onclick="setSrc(7)">
+<input type="button" value="幻灯播放" onclick="timeID=setInterval('play()',1800)">
+<input type="button" value="停止播放" onclick="clearInterval(timeID)">
+<div style="border:2px solid yellow;width:670px; height:502px;" id="myPic">
+	<img src="images/0.jpg" />
+</div>
+</div>
+
+
+<!-- 页脚 footer -->
+<div id="footer">
+<p>&copy;2013 All Rights Reserved. &nbsp;&bull;&nbsp; Designed by <a href="index.html">Zhu Dongqiao </a></p>
+</div>
+</body>
+</html>
